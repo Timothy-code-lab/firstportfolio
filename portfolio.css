@@ -1,0 +1,160 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 20px;
+    list-style: none;
+    font-size: 20px;
+    
+    
+}
+nav ul a{
+    text-decoration: none;
+    color: azure;
+}
+
+nav ul a:hover{
+    color: aqua;
+    border-radius: 3px;
+    background-color: azure;
+    padding: 20px;
+}
+
+nav ul a:active{
+color: hsl(160, 35%, 43%);
+}
+
+
+/* background colour*/
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/*body image*/
+
+.home div{
+    padding: 40px;
+    text-align: center;
+
+}
+.home div h1{
+    font-size: 80px;
+    padding-top: 50px;
+    color: aquamarine;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.home div h2{
+    font-size: 30px;
+    color: aquamarine;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.logo {
+    color: aquamarine;
+    font-size: 20px;
+    padding:40px;
+    font-size:60px;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.about{
+    height: 80vh;
+    background-color: aquamarine;
+    justify-content: center ;
+    margin: 0;
+    padding-bottom: 50px;
+    
+}
+.about-me{
+    padding-top: 120px;
+    padding-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    
+}
+
+.profile{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: 500px; 
+    margin-bottom: 30px; 
+}
+
+.commitment{
+    width: 40%;
+    margin: auto;
+    text-align: justify;
+    color: azure;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+
+}
+
+footer{
+    background-color: #333;
+    padding: 40px;
+    justify-content: space-between;
+    color: aquamarine;
+}
+
+
+
+.bodyimage{
+    height: 300px;
+    width: 1335px;
+}
+
+/* aboutme*/
+.aboutme{
+    display: flex;
+    width: 33%;
+}  
+
+
+/* contact*/
+.contact{
+    background-color: aqua;
+    height: 90vh;
+}
+
+
+/* form*/
+.clientform{
+    font-size: 20px;
+    margin: 20px;
+    font-style: normal;
+    text-align: center;
+     
+
+}
+
+@media screen and (max-width: 480px) {
+    html, body {
+      min-width: 320px; } }
